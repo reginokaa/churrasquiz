@@ -1,0 +1,44 @@
+{
+  "bg": "https://images.pexels.com/photos/983373/pexels-photo-983373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+  "title": "ChurrasquiZ",
+  "description": "Vamos ver se você manja de fazer aquele churras!",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Na hora do corte, qual o movimento que favorece a maciez e suculência da carne?",
+      "description": "...",
+      "answer": 2,
+      "alternatives": [
+        ".elemento",
+        "*elemento",
+        "#elemento",
+        "%elemento"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "title": "O sal grosso entra em cena em que momento?",
+      "description": "...",
+      "answer": 0,
+      "alternatives": [
+         "background: linear-gradient(#e66465, #9198e5);",
+         "background: gradient(#e66465, #9198e5);"
+      ]
+    }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#F2913D",
+      "secondary": "#929CA6",
+      "tertiary": "#F27329",
+      "mainBg": "#262626",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#F2D06B"
+    },
+    "borderRadius": "4px"
+  }
+}
