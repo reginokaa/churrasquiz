@@ -8,6 +8,8 @@ import Footer from '../src/components/Footer';
 import GuitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 /*
 function Title(props) { //propcidades/propriedades
@@ -27,7 +29,7 @@ const BackgroundImage = styled.div`
 `
 */
 
-export const QuizContainer = styled.div`
+const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -53,31 +55,31 @@ export default function Home() {
         <Widget>
           <Widget.Header>
             <h1>
-              {' '}
               {db.title}
-              {' '}
             </h1>
           </Widget.Header>
           <Widget.Content>
+            <p>
+              {' '}
+              {db.description}
+              {' '}
+            </p>
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault(); // previne comportamento padrão
               router.push(`/quiz?name=${name}`); // queryparams
             }}
             >
-              <input
-                onChange={function (infosDoEvento) {
-                  setName(infosDoEvento.target.value);
-                }}
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
                 placeholder="diz aí seu nome"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                bora jogar,
-                {' '}
-                {name}
-                !
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`manda brasa ${name}`}
+              </Button>
             </form>
-            {/* <p> {db.description} </p> */}
+
           </Widget.Content>
         </Widget>
 
@@ -90,7 +92,7 @@ export default function Home() {
         </Widget>
         <Footer />
       </QuizContainer>
-      <GuitHubCorner projectUrl="https://github.com/reginokaa" />
+      <GuitHubCorner projectUrl="https://github.com/reginokaa/churrasquiz.git" />
     </QuizBackground>
   );
 } // essa função representa a página

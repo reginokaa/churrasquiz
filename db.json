@@ -4,25 +4,25 @@
   "description": "Vamos ver se você manja de fazer aquele churras!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "image": "https://media.giphy.com/media/64a904a3gkiJ9foA2c/giphy.gif",
       "title": "Na hora do corte, qual o movimento que favorece a maciez e suculência da carne?",
       "description": "...",
       "answer": 2,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Movimento a favor da fibra da carne",
+        "Movimento lateral à fibra da carne",
+        "Movimento contra a fibra da carne "
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+      "image": "https://media.giphy.com/media/l4Jz3a8jO92crUlWM/giphy.gif",
       "title": "O sal grosso entra em cena em que momento?",
       "description": "...",
-      "answer": 0,
+      "answer": 1,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Pelo menos, 2 horas antes de colocar a carne no fogo",
+         "Apenas 15 minutos antes de colocar a carne no fogo ",
+         "No dia anterior"
       ]
     }
   ],
