@@ -6,7 +6,7 @@
     {
       "image": "https://media.giphy.com/media/64a904a3gkiJ9foA2c/giphy.gif",
       "title": "Na hora do corte, qual o movimento que favorece a maciez e suculência da carne?",
-      "description": "...",
+      "description": "",
       "answer": 2,
       "alternatives": [
         "Movimento a favor da fibra da carne",
@@ -17,12 +17,34 @@
     {
       "image": "https://media.giphy.com/media/l4Jz3a8jO92crUlWM/giphy.gif",
       "title": "O sal grosso entra em cena em que momento?",
-      "description": "...",
+      "description": "",
       "answer": 1,
       "alternatives": [
          "Pelo menos, 2 horas antes de colocar a carne no fogo",
-         "Apenas 15 minutos antes de colocar a carne no fogo ",
+         "Apenas 15 minutos antes de colocar a carne no fogo",
          "No dia anterior"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/55aZTOzFVzZ0lzdwCh/giphy.gif",
+      "title": "Sobre o momento ideal de colocar a carne na churrasqueira, é correto afirmar:",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+         "O ideal é deixar o fogo em brasa, apenas",
+         "É importante deixar a chama baixar, senão a carne pode queimar por fora e permanecer crua por dentro",
+         "O certo é deixar o fogo bem alto, assim a carne assa mais rápido e de forma uniforme"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/kUO1JCNonFbqw/giphy.gif",
+      "title": "O que se pode dizer sobre o vazio?",
+      "description": "",
+      "answer": 0,
+      "alternatives": [
+         "É a ponta com carne da costela",
+         "É um prolongamento do coxão duro",
+         "É a parte que fica no quarto traseiro do boi"
       ]
     }
   ],
