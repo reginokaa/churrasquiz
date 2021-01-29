@@ -1,7 +1,7 @@
 {
   "bg": "https://images.pexels.com/photos/983373/pexels-photo-983373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   "title": "ChurrasquiZ",
-  "description": "Vamos ver se você manja de fazer aquele churras!",
+  "description": "Vamos ver se você manja de fazer um belo churrasco!",
   "questions": [
     {
       "image": "https://media.giphy.com/media/64a904a3gkiJ9foA2c/giphy.gif",
@@ -49,7 +49,8 @@
     }
   ],
   "external": [
-    ""
+    "https://mariaquiz.mariarubinger.vercel.app/",
+    "https://theofficequiz.brunaguedes92.vercel.app/"
   ],
   "theme": {
     "colors": {
