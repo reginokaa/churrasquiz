@@ -1,3 +1,8 @@
-<h1>CHURRASQUIZ</h1>
+## CHURRASQUIZ
 
-Teste seus conhecimentos de churrasco com esse quiz desenvolvido durante a Imersão React da Alura.
+Teste seus conhecimentos sobre churrasco com esse quiz desenvolvido durante a Imersão React da Alura realizada entre os dias 25 e 29 de janeiro de 2021.
+
+Libs:
+- Next.js
+
+***
