@@ -6,3 +6,5 @@ Libs:
 - Next.js
 
 ***
+
+Aulas ministradas pelos especialistas **Mario Souto** e **Juliana Amoasei**
